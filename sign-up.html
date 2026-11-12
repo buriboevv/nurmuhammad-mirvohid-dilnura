@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up — Createx</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="auth-page">
+  <div class="auth-box">
+    <h2 style="text-align: center; color: var(--dark); margin-bottom: 12px;">Sign up</h2>
+    <p style="text-align: center; font-size: 14px; color: var(--gray-700); margin-bottom: 24px;">Registration takes less than a minute but gives you full control over your studying.</p>
+    <form onsubmit="event.preventDefault(); window.location.href='index.html';">
+      <div class="form-group"><label>Full Name</label><input type="text" class="form-control" placeholder="Your full name" required></div>
+      <div class="form-group"><label>Email</label><input type="email" class="form-control" placeholder="Your working email" required></div>
+      <div class="form-group"><label>Password</label><input type="password" class="form-control" placeholder="••••••••" required></div>
+      <div class="form-group"><label>Confirm Password</label><input type="password" class="form-control" placeholder="••••••••" required></div>
+      <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 20px;">Sign up</button>
+    </form>
+    <p style="text-align: center; font-size: 14px;">Already have an account? <a href="signin.html" style="color: var(--primary); font-weight: 700;">Sign in</a></p>
+  </div>
+</body>
+</html>
